@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Doing it for simplicity sake (lazy to create components and reuse them) */
+.btn {
+	@apply bg-indigo-500 py-3 px-8 text-lg font-bold text-white transition duration-150 hover:bg-indigo-800;
+}
+
+.link {
+	@apply inline-block w-max self-center;
+}
+
+.title {
+	@apply text-xl font-bold text-slate-900;
+}
+
+.input {
+	@apply rounded-md border border-slate-300 py-4 px-4;
+}
+
+.form {
+	@apply mx-16 mt-16 flex flex-col gap-4;
+}
